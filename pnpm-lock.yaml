@@ -9,23 +9,23 @@ importers:
   .:
     dependencies:
       vue:
-        specifier: ^3.5.13
+        specifier: ^3.5.17
         version: 3.5.17(typescript@5.7.3)
     devDependencies:
       '@vitejs/plugin-vue':
-        specifier: ^5.2.2
+        specifier: ^5.2.4
         version: 5.2.4(vite@6.4.2)(vue@3.5.17(typescript@5.7.3))
       '@vue/tsconfig':
         specifier: ^0.7.0
         version: 0.7.0(typescript@5.7.3)(vue@3.5.17(typescript@5.7.3))
       typescript:
-        specifier: ~5.7.2
+        specifier: ~5.7.3
         version: 5.7.3
       vite:
         specifier: ^6.4.2
         version: 6.4.2
       vue-tsc:
-        specifier: ^2.2.8
+        specifier: ^2.2.12
         version: 2.2.12(typescript@5.7.3)
 
 packages:
@@ -449,8 +449,8 @@ packages:
   magic-string@0.30.17:
     resolution: {integrity: sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==}
 
-  minimatch@9.0.5:
-    resolution: {integrity: sha512-G6T0ZX48xgozx7587koeX9Ys2NYy6Gmv//P89sEte9V9whIapMNF4idKxnW2QtCcLiTWlb/wfCabAtAFWhhBow==}
+  minimatch@9.0.9:
+    resolution: {integrity: sha512-OBwBN9AL4dqmETlpS2zasx+vTeWclWzkblfZk7KTA5j3jeOONz/tRCnZomUyvNg83wL5Zv9Ss6HMJXAgL8R2Yg==}
     engines: {node: '>=16 || 14 >=14.17'}
 
   muggle-string@0.4.1:
@@ -781,7 +781,7 @@ snapshots:
       '@vue/compiler-vue2': 2.7.16
       '@vue/shared': 3.5.17
       alien-signals: 1.0.13
-      minimatch: 9.0.5
+      minimatch: 9.0.9
       muggle-string: 0.4.1
       path-browserify: 1.0.1
     optionalDependencies:
@@ -874,7 +874,7 @@ snapshots:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.4
 
-  minimatch@9.0.5:
+  minimatch@9.0.9:
     dependencies:
       brace-expansion: 2.0.2
 

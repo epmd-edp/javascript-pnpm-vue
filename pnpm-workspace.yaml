@@ -1,0 +1,4 @@
+minimumReleaseAgeExclude:
+  - vite@8.0.14
+onlyBuiltDependencies:
+  - esbuild
